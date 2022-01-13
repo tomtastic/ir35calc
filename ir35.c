@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 int main() {
-    int tax_burden_percent = 17;
+    int tax_burden_percent = 21;
 
     unsigned long size = 4;
     int bytes_read;
