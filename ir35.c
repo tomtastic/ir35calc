@@ -20,7 +20,7 @@ int main() {
     bytes_read = getdelim (&rate, &size, '\n', stdin);
     rate[strcspn(rate, "\n")] = 0;
     result = strtol(rate, &ptr, 10);
-    result = (result/(100-tax_burden_percent)*100);
+    result = (result/(100+tax_burden_percent)*100);
 
     if (bytes_read == -1) {
         puts("error!");
